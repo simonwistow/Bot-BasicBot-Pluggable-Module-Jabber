@@ -5,7 +5,7 @@ use strict;
 use Module::Build;
 
 Module::Build->new(
-    module_name => 'Bot::BasicBot::Pluggable::Module:::WebService',
+    module_name => 'Bot::BasicBot::Pluggable::Module::Jabber',
     license => 'perl',
     requires => {
       'Jabber::Connection' => '0',
